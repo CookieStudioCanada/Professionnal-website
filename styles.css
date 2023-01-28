@@ -1,0 +1,116 @@
+/* Header */
+
+header {
+    display: flex;
+    background-color: yellow;
+}
+
+header h1 {
+    flex: auto;
+}
+
+/* Hamburger menu */
+.toggle-button {
+  margin: auto 10px;
+  background-size: cover;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.dropdown a {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 24px;
+  outline: none;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.navlinks {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* Images */
+
+img {
+  width: 100%;
+  opacity: 75%;
+}
+
+/* Section container */
+
+.section {
+  padding: 15px;
+
+}
+
+/* Services: Flex container */
+.servicesContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.serviceItem {
+  background-color: red;
+  margin: 10px;
+  min-width: 200px;
+}
+
+/* Blog: Grid container */
+.blogContainer {
+  display: grid;
+  grid-template: auto auto auto auto / auto auto;
+}
+
+.blogItem {
+  padding: 5px;
+  background-color: red;
+  margin: 5px;
+}
+
+/* All IDs */
+#home {
+  display: flex; /* Allows you to use align-items and justify-content */
+  align-items: center; /* Vertically center the image */
+  justify-content: center;
+}
+
+#contactMe {
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+}
+
+#section1 {
+  background-color: yellow;
+}
+
+#section2 {
+  background-color: aqua;
+}
+
+#section3 {
+  background-color: yellow;
+}
+
+/* Contact info : Grid */
+
+.contactInfo {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
