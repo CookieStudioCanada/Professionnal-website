@@ -11,6 +11,11 @@ header h1 {
 
 /* Body */
 
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 body {
   text-align: justify;
   font-family:'Calibri';
