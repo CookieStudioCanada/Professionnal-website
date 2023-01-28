@@ -20,6 +20,8 @@ body {
   text-align: justify;
   font-family:'Calibri';
   margin: 0;
+  overflow-x: hidden;
+
 }
 
 /* Hamburger menu */
