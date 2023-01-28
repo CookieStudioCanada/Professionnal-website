@@ -1,11 +1,12 @@
 /* Header */
 
 header {
-    display: flex;
+  display: flex;
 }
 
 header h1 {
-    flex: auto;
+  flex: auto;
+  margin-left: 10px;
 }
 
 /* Body */
@@ -13,6 +14,7 @@ header h1 {
 body {
   text-align: justify;
   font-family:'Calibri';
+  margin: 0;
 }
 
 /* Hamburger menu */
@@ -48,7 +50,8 @@ body {
 
 img {
   width: 100%;
-  border: 1px solid black;
+  margin: 0;
+  border: solid 1px black;
 }
 
 /* Buttons */
@@ -85,7 +88,6 @@ button a {
 
 .section {
   padding: 10px;
-  background-color: lightgreen;
   margin: 10px 0 10px 0;
 }
 
@@ -102,10 +104,11 @@ h3 {
 }
 
 .serviceItem {
-  background-color: greenyellow;
+  background-color: lightgreen;
   margin: 5px;
   padding: 10px;
   min-width: 140px;
+  border: 1px solid black;
 }
 
 /* Blog: Grid container */
@@ -116,7 +119,8 @@ h3 {
 
 .blogItem {
   padding: 10px;
-  background-color: greenyellow;
+  background-color: white;
+  border: 1px solid black;
   margin: 5px;
 }
 
@@ -129,7 +133,15 @@ h3 {
 
 #contactMe {
   text-align: center;
-  padding: 10px;
+  background-color: lightgreen;
+  border-top: dashed 1px black;
+  border-bottom: dashed 1px black;
+}
+
+#section2 {
+  background-color: lightgreen;
+  border-top: dashed 1px black;
+  border-bottom: dashed 1px black;
 }
 
 /* Contact info : Grid */
