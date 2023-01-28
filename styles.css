@@ -12,6 +12,7 @@ header h1 {
 
 body {
   text-align: justify;
+  font-family:'Calibri';
 }
 
 /* Hamburger menu */
@@ -29,8 +30,6 @@ body {
   text-align: center;
   font-size: 14px;
   padding: 12px 24px;
-  outline: none;
-  border-radius: 5px;
 }
 
 .navlinks {
@@ -42,14 +41,14 @@ body {
 .navlinks a {
   text-decoration: none;
   color: black;
-  border: dashed 1px black;
+  border-bottom: dashed 1px black;
 }
 
 /* Images */
 
 img {
   width: 100%;
-  opacity: 75%;
+  border: 1px solid black;
 }
 
 /* Buttons */
@@ -57,6 +56,7 @@ img {
 button {
   border: black 1px solid;
   background-color: white;
+  color: black;
 }
 
 button a {
@@ -77,10 +77,14 @@ button a {
   font-size: 24px;
 }
 
+#contact-btn {
+  padding: 12px;
+}
+
 /* Section container */
 
 .section {
-  padding: 20px;
+  padding: 10px;
   background-color: lightgreen;
   margin: 10px 0 10px 0;
 }
@@ -98,9 +102,10 @@ h3 {
 }
 
 .serviceItem {
-  background-color: green;
-  margin: 10px;
-  min-width: 200px;
+  background-color: greenyellow;
+  margin: 5px;
+  padding: 10px;
+  min-width: 140px;
 }
 
 /* Blog: Grid container */
@@ -110,8 +115,8 @@ h3 {
 }
 
 .blogItem {
-  padding: 5px;
-  background-color: green;
+  padding: 10px;
+  background-color: greenyellow;
   margin: 5px;
 }
 
@@ -132,7 +137,6 @@ h3 {
 .contactInfo {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .contactInfo a {
@@ -140,11 +144,13 @@ h3 {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  padding: 12px;
 }
 
-.contactInfo a span {
+.contactInfo span {
   margin-left: 20px;
   font-size: 15px;
+  font-family: 'Calibri';
 }
 
 /* Footer */
