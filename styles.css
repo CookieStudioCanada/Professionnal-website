@@ -91,10 +91,6 @@ button a {
   margin: 10px 0 10px 0;
 }
 
-h3 {
-  margin-top: 0;
-}
-
 /* Services: Flex container */
 .servicesContainer {
   display: flex;
@@ -142,6 +138,10 @@ h3 {
   background-color: lightgreen;
   border-top: dashed 1px black;
   border-bottom: dashed 1px black;
+}
+
+#section2 h3 {
+  padding-top: 10px;
 }
 
 /* Contact info : Grid */
