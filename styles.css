@@ -2,11 +2,16 @@
 
 header {
     display: flex;
-    background-color: yellow;
 }
 
 header h1 {
     flex: auto;
+}
+
+/* Body */
+
+body {
+  text-align: justify;
 }
 
 /* Hamburger menu */
@@ -25,13 +30,19 @@ header h1 {
   font-size: 14px;
   padding: 12px 24px;
   outline: none;
-  background-color: yellow;
   border-radius: 5px;
 }
 
 .navlinks {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: black;
+  border: dashed 1px black;
 }
 
 /* Images */
@@ -41,11 +52,41 @@ img {
   opacity: 75%;
 }
 
+/* Buttons */
+
+button {
+  border: black 1px solid;
+  background-color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+#facebook-btn {
+  border-radius: 5px;
+  border: white 1px solid;
+  font-size: 24px;
+}
+
+#facebook-btn a {
+  border: none;
+  background-color: none;
+  padding: 0;
+  font-size: 24px;
+}
+
 /* Section container */
 
 .section {
-  padding: 15px;
+  padding: 20px;
+  background-color: lightgreen;
+  margin: 10px 0 10px 0;
+}
 
+h3 {
+  margin-top: 0;
 }
 
 /* Services: Flex container */
@@ -57,7 +98,7 @@ img {
 }
 
 .serviceItem {
-  background-color: red;
+  background-color: green;
   margin: 10px;
   min-width: 200px;
 }
@@ -70,7 +111,7 @@ img {
 
 .blogItem {
   padding: 5px;
-  background-color: red;
+  background-color: green;
   margin: 5px;
 }
 
@@ -82,29 +123,28 @@ img {
 }
 
 #contactMe {
-  background-color: aqua;
   text-align: center;
   padding: 10px;
-}
-
-#section1 {
-  background-color: yellow;
-}
-
-#section2 {
-  background-color: aqua;
-}
-
-#section3 {
-  background-color: yellow;
 }
 
 /* Contact info : Grid */
 
 .contactInfo {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+}
+
+.contactInfo a {
+  min-width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.contactInfo a span {
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 /* Footer */
