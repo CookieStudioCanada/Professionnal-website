@@ -1,3 +1,6 @@
+/* Calendly */
+
+
 /* Header */
 
 header {
@@ -91,7 +94,7 @@ button a {
 }
 
 #contact-btn {
-  padding: 12px;
+  padding: 12px; /* Problème = on dirait qu'il faut etre precis pour cliquer. ca ne clique pas partout. */
 }
 
 /* Section container */
@@ -144,13 +147,13 @@ button a {
   border-bottom: dashed 1px black;
 }
 
-#section2 {
+#section2, #section4, #section6 {
   background-color: lightgreen;
   border-top: dashed 1px black;
   border-bottom: dashed 1px black;
 }
 
-#section2 h3 {
+#section2, #section4, #section6 h3 {
   padding-top: 10px;
 }
 
