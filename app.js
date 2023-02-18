@@ -5,7 +5,7 @@ dropdown.style.display = 'none'
 
 toggleButton.addEventListener('click', () => {
 
-  // Add transition...
+  // add transition here?
   dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
 });
 

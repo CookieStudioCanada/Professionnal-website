@@ -112,21 +112,17 @@
       <a href="tel:+test" class="fa">&#xf095; <span>(514) XXX-YYYY</span></a>
       <a href="mailto:test@hotmail.com" class="fa">&#xf0e0; <span>test@hotmail.com</span></a>
       <a class='fa'>&#xf073; <span>Du lundi au vendredi sur rendez-vous</span></a>
+      
+      <!-- Début de widget de lien Calendly -->
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+      <button id="calendly-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cookietechnologiescanada?hide_gdpr_banner=1'});return false;">Planifier du temps avec moi</button>
+      <!-- Fin de widget de lien Calendly -->
     </div>
   </div>
 
   <div class="section" id="section5">
-    <h3>Prenez rendez-vous</h3>
-    <!-- Début de widget en ligne Calendly -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/cookietechnologiescanada?hide_gdpr_banner=1" style="min-width:320px;height:300px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <!-- Fin de widget en ligne Calendly -->
-  </div>
-
-  <div class="section" id="section6">
     <h3>Paiements</h3>
-    <a href="https://buy.stripe.com/test_8wMcO35V8f9L5KE288" target="_blank" class="fa"><span>Stripe payment</span></a>
-    <br>
     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
     <stripe-pricing-table pricing-table-id="prctbl_1Mcu6gBXU3FNE2Xx0s1CAWLF"
     publishable-key="pk_test_51Mcth5BXU3FNE2XxiPYk5BCOkAMxIAxrs0E8dJOTCGiSy4JrNssgxcBIcA7PEgymk2Ecd0q5isHWA2EKx9fuhFip00tcU5nhGE">
