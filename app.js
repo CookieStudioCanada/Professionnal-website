@@ -24,7 +24,7 @@ navLinks.addEventListener('click', (event) => {
 
 // Reviews
 
-const reviews = ["This is the first review", "This is the second review", "This is the third review"]; // Objects : nom, commentaire, rating
+const reviews = ["J'ai été impressionné par la qualité des services de Professionnel-Name. Leur équipe a travaillé en étroite collaboration avec moi pour comprendre mes besoins en matière de planification financière et m'a proposé des solutions personnalisées qui ont vraiment fait la différence. Je recommande vivement cette entreprise à tous ceux qui cherchent des services de planification financière de qualité.", "Je suis très satisfait des services d'assurance de Professionnel-Name. Leur équipe a été très professionnelle et a travaillé dur pour comprendre mes besoins en matière d'assurance. Ils m'ont proposé des produits d'assurance personnalisés qui ont vraiment répondu à mes besoins. Je recommande fortement cette entreprise à tous ceux qui cherchent des services d'assurance de qualité.", "Je suis très heureux d'avoir choisi Professionnel-Name pour mes services de gestion de patrimoine. Leur équipe a travaillé en étroite collaboration avec moi pour comprendre mes objectifs en matière de gestion de patrimoine et m'a proposé des solutions personnalisées qui ont vraiment fait la différence. Je recommande vivement cette entreprise à tous ceux qui cherchent des services de gestion de patrimoine de qualité."]; // Objects : nom, commentaire, rating
 
 const reviewsContent = document.querySelector(".reviews-content");
 const leftArrow = document.querySelector(".reviews-left-arrow");
