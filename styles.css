@@ -120,8 +120,7 @@ button a {
 /* Section container */
 
 .section {
-  padding: 10px;
-  margin: 10px 0 10px 0;
+  padding: 15px;
 }
 
 /* Services: Flex container */
@@ -136,7 +135,7 @@ button a {
   background-color: lightblue;
   margin: 5px;
   padding: 10px;
-  min-width: 150px;
+  min-width: 200px;
   border: 1px solid black;
 }
 
@@ -173,6 +172,7 @@ button a {
   transform: translate(-50%, -50%);
   z-index: 1;
   padding: 12px;
+  cursor: pointer;
 }
 
 /*
@@ -209,12 +209,13 @@ button a {
   color: black;
   font-size: 20px;
   padding: 12px;
+
 }
 
 .contactInfo span {
-  margin-left: 20px;
   font-size: 15px;
   font-family: 'Calibri';
+  margin-left: 12px;
 }
 
 /* Footer */
